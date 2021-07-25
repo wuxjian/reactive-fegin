@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>product-service</module>
+        <module>feign-service</module>
     </modules>
 
     <parent>
@@ -24,6 +25,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <spring.cloud-version>Hoxton.SR1</spring.cloud-version>
         <spring.cloud.alibaba.version>2.2.6.RELEASE</spring.cloud.alibaba.version>
+        <feign-reactor.version>1.0.44</feign-reactor.version>
     </properties>
 
     <dependencies>
