@@ -25,8 +25,8 @@ public class ProductController {
     }
 
     @PostMapping("")
-    public Mono<Product> createProduct(@RequestBody Product product) {
-        return productService.createOrUpdateProduct(Mono.just(product));
+    public Mono<Product> createProduct(@RequestBody Mono<Product> product) {
+        return productService.createOrUpdateProduct(product);
     }
 
     @DeleteMapping("/{id}")
