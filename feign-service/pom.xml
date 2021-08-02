@@ -24,10 +24,6 @@
 
         <!--feign-reactive-->
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.playtika.reactivefeign</groupId>
             <artifactId>feign-reactor-webclient</artifactId>
             <version>${feign-reactor.version}</version>
@@ -46,9 +42,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.netflix.feign</groupId>
+            <groupId>io.github.openfeign</groupId>
             <artifactId>feign-slf4j</artifactId>
-            <version>8.18.0</version>
+            <version>11.2</version>
         </dependency>
 
     </dependencies>
